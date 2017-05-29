@@ -1,0 +1,328 @@
+body{
+	background-color: #983939;
+}
+.main {
+	margin: auto;
+	width: 1500px;
+}
+.fullwidth{
+	width: 100%;
+}
+.fullHeight{
+	height: 100%;
+}
+.colorRed{
+	background: #983939;
+	color: rgb(252,241,207);
+}
+.colorWhite{
+	background: rgb(252,241,207);
+	color: #983939;
+}
+.displayInline{
+	display: inline-block;
+}
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float: right;
+}
+.clearBoth{
+	clear: both;
+}
+/*HEADER Section*/
+.header{
+	padding-left: 0px; 
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-bottom: 2px solid rgb(252,241,207);
+}
+.header>div{
+	margin: 7px;
+	float: left;
+    margin-left: 13px;
+}
+.header .name>div{
+	 font-size: 45px;
+	 padding: 10px;
+	 padding-bottom: 20px;
+}
+.header .find>div{
+	font-size: 20px;
+	padding-top: 21px;
+	padding-bottom: 21px;
+	padding-left: 10px;
+}
+.header .upload>div{
+	font-size: 20px;
+	padding-top: 21px;
+	padding-bottom: 21px;
+	padding-left: 10px;
+}
+/* CONTENT Section*/
+.contentLeft{
+	width: 70%;
+	margin-bottom: 80px;
+}
+.contentRight{
+	width: 29%; 
+	height: 50px;
+}
+/*Video Left Section*/
+.videosLeft{
+	width: 66%;
+}
+.videosLeftFirst{
+	height: 35px;
+}
+.videosLeftFirst h1{
+	text-align: left;
+	height: 25px;	
+	float: left;
+	font-size: 25px;
+}
+.videosLeftFirst p{
+	text-align: right;
+	height: 25px;
+	float: right;
+	margin-top: 10px;
+}
+.videosLeftSecond {
+	clear: both;
+	height: 440px;
+}
+.videosLeftSecond .floatRight p{
+	margin-top: 16px;
+}
+.videosLeftThird{
+	margin-top: 10px;
+}
+.videosLeftThird>div{
+	width: 49.3%; 
+}
+.videosLeftThird>div>div p{	
+	float: left;
+}
+/*Video Right Section*/
+.videosRight{
+	width: 33%;
+	margin-top: 34px;
+	height: 663px;
+}
+.videosRight>div>div p{	
+	float: left;
+}
+.videosRightSecond {
+   margin-top: 10px;
+}
+.videosRightThird {
+   margin-top: 10px;
+   border: 1px solid rgb(252,241,207);
+}
+
+.videosRightThird p{
+    margin: 100px;
+}
+/*People Left Section*/
+.peopleLeft{
+	width: 66%;
+}
+.peopleLeftFirst{
+	height: 35px;
+    margin-top: 10px;
+}
+.peopleLeftFirst h1{
+	text-align: left;
+	height: 25px;	
+	float: left;
+	font-size: 25px;
+}
+.peopleLeftFirst p{
+	text-align: right;
+	height: 25px;
+	float: right;
+	margin-top: 10px;
+}
+
+.peopleLeftSecond {
+	clear: both;
+	height: 440px;
+}
+.peopleLeftSecond .floatRight p{
+	margin-top: 16px;
+}
+.peopleLeftThird{
+	margin-top: 10px;
+}
+.peopleLeftThird>div{
+	width: 49.3%; 
+	max-height: 410px;
+}
+/*.peopleLeftThird>div>div p{
+	float: left;
+}*/
+
+/*People Right Section*/
+.peopleRight{
+	width: 33%;
+	margin-top: 45px;
+	height: 663px;
+}
+/*.peopleRight>div>div p{
+	float: left;
+}*/
+.peopleRightSecond {
+   margin-top: 10px;
+}
+.peopleRightThird {
+   margin-top: 10px;
+   border: 1px solid rgb(252,241,207);
+}
+.peopleRightThird p{
+    text-align: center;
+    padding-top: 100px;
+    height: 125px;
+
+}
+/*Documents Left Section*/
+.documentsLeft{
+	width: 66%;
+}
+.documentsLeftFirst{
+	height: 35px;
+}
+.documentsLeftFirst h1{
+	text-align: left;
+	height: 25px;	
+	float: left;
+	font-size: 25px;
+}
+.documentsLeftFirst p{
+	text-align: right;
+	height: 25px;
+	float: right;
+	margin-top: 10px;
+}
+.documentsLeftSecond {
+	clear: both;
+	height: 440px;
+}
+.documentsLeftSecond .floatRight p{
+	margin-top: 16px;
+}
+.documentsLeftThird{
+	margin-top: 10px;
+}
+.documentsLeftThird>div{
+	width: 49.3%; 
+	max-height: 410px;
+}
+/*Documents Right Section*/
+.documentsRight{
+	width: 33%;
+	margin-top: 50px;
+	height: 663px;
+}
+.documentsRightSecond {
+   margin-top: 10px;
+}
+.documentsRightThird {
+   margin-top: 10px;
+}
+.documentsRightThird p{
+    padding: 100px;
+    border: 1px solid rgb(252,241,207);
+}
+/*Content RIGHT Section*/
+/*Activity*/
+.activityFirst{
+	height: 35px;
+}
+.activityFirst p{
+	text-align: right;
+	float: right;	
+    margin-top: 14px;
+}
+.activityFirst h1{
+	font-size: 25px;
+	float: left;
+	margin-top: 5px;
+}
+.activitySecond{
+	height: 662px;
+	border-bottom: 4px solid rgb(252,241,207);
+	border-top: 4px solid rgb(252,241,207);
+}
+.activitySecond>div .activityLeft{
+	width: 20%;
+	height: 100%;
+}
+.activitySecond>div .activityRight{
+	width: 78%;
+	height: 100%;
+}
+.activitySecond>div {
+	padding-top: 15px;
+	height: 14%;
+}
+.activitySecond>div>div p{
+	padding-bottom:  20px;
+}
+/*Channels*/
+.channelsFirst{
+	height: 47px;
+}
+.channelsFirst p{
+	text-align: right;
+	float: right;	
+    margin-top: 17px;
+}
+.channelsFirst h1{
+	font-size: 25px;
+	float: left;
+	margin-top: 10px;
+}
+.channelsSecond {
+	margin-top: 0px;
+	height: 900px;
+	border-bottom: 4px solid rgb(252,241,207);
+	border-top: 4px solid rgb(252,241,207);
+}
+.channelsSecond>div {
+	width: calc(50% - 5px);
+	height: 100%;
+	margin-top: 15px;
+}
+.channelsSecond>div>div{
+	height: 18%;
+	margin-bottom: 15px;
+}
+.channelsSecond>div>div p{
+	font-size: 20px;
+	padding-top: 135px;
+    padding-left: 5px;
+}
+/*FOOTER Section*/
+.footer{
+	width: 1500px;
+    border-top: 2px solid rgb(252,241,207);
+}
+.footer>div{
+	margin-top: 20px;
+}
+.footer>div>img{
+	width: 28px;
+	height: 28px;	
+	margin-left: 15px;
+}
+.footer .footerSecond>div{
+	width: 110px;
+	height: 25px;
+	text-align: center;
+}
+.footer .footerThird p{
+	height: 35px;
+	margin-bottom: -12px;
+}
